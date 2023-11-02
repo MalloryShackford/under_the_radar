@@ -55,19 +55,19 @@ export default function HomePage() {
 <div className="column">
     <a href="#about">
 {/* 	    <img src="https://ibb.co/RjGDGnx" alt="soup"></img> */}
-    <p>The Chef</p>
+    <p><strong>The Chef</strong></p>
     <span className="span">French-trained with over 20 years of culinary experience.</span></a>
 </div>
 <div className="column">
     <Link to="/gallery">
 {/* 	    <img src="https://ibb.co/tzKj2v4" alt="noodles"> */}
-    <p>The Food</p>
+    <p><strong>The Food</strong></p>
     <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span></Link>
 </div>
 <div className="column">
     <a href="#contact">
 {/* 	    <img src="https://ibb.co/QMpsfZt" alt="shrimp"></img> */}
-    <p>The Services</p>
+    <p><strong>The Services</strong></p>
     <span className="span">Cooking is a craft -- let me bring my art to you.</span></a>
 </div>
 </div>
