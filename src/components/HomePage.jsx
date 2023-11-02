@@ -20,7 +20,7 @@ export default function HomePage() {
             <li><Link to="/">Home</Link></li>
             <li><a href="#about">About</a></li>
             <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/menu">Sample Menu</Link></li>
+{/*             <li><Link to="/menu">Sample Menu</Link></li> */}
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
