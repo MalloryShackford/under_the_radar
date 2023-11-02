@@ -20,7 +20,7 @@ export default function HomePage() {
             <li><Link to="/">Home</Link></li>
             <li><a href="#about">About</a></li>
             <li><Link to="/gallery">Gallery</Link></li>
-{/*             <li><Link to="/menu">Sample Menu</Link></li> */}
+            <li><Link to="/menu">Sample Menu</Link></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -33,7 +33,7 @@ export default function HomePage() {
     <div className="box">
       <h1 className="title">Under the Radar</h1>
       {/* <div className="container-two"> */}
-{/*         <img className="logo" src="assets/images/whitelogo.png" alt="logo"/> */}
+        <img className="logo" src="https://ibb.co/xMQDgcr" alt="logo"/>
       
     </div>
     {/* <div className="box overlay">
