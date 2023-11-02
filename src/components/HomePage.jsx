@@ -33,7 +33,7 @@ export default function HomePage() {
     <div className="box">
       <h1 className="title">Under the Radar</h1>
       {/* <div className="container-two"> */}
-        <img className="logo" src="assets/images/whitelogo.png" alt="logo"/>
+{/*         <img className="logo" src="assets/images/whitelogo.png" alt="logo"/> */}
       
     </div>
     {/* <div className="box overlay">
@@ -53,17 +53,17 @@ export default function HomePage() {
 {/* Main */}
 <div className="row">
 <div className="column">
-    <a href="#about"><img src="src/assets/images/soup.png" alt="soup"></img></a>
+{/*     <a href="#about"><img src="src/assets/images/soup.png" alt="soup"></img></a> */}
     <p>The Chef</p>
     <span className="span">French-trained with over 20 years of culinary experience.</span>
 </div>
 <div className="column">
-    <a href="gallery.html"><img src="src/assets/images/noods.png" alt="noodles"></img></a>
+{/*     <a href="gallery.html"><img src="src/assets/images/noods.png" alt="noodles"></img></a> */}
     <p>The Food</p>
     <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span>
 </div>
 <div className="column">
-    <a href="#contact"><img src="src/assets/images/shrimp.png" alt="shrimp"></img></a>
+{/*     <a href="#contact"><img src="src/assets/images/shrimp.png" alt="shrimp"></img></a> */}
     <p>The Services</p>
     <span className="span">Cooking is a craft -- let me bring my art to you.</span>
 </div>
