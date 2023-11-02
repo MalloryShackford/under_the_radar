@@ -33,7 +33,7 @@ export default function HomePage() {
     <div className="box">
       <h1 className="title">Under the Radar</h1>
       {/* <div className="container-two"> */}
-        <img className="logo" src="src/assets/images/whitelogo.png" alt="logo"/>
+        <img className="logo" src="images/whitelogo.png" alt="logo"/>
       
     </div>
     {/* <div className="box overlay">
@@ -53,7 +53,7 @@ export default function HomePage() {
 {/* Main */}
 <div className="row">
 <div className="column">
-    <a href="#about"><img src="src/assets/images/soup.png" alt="soup"></img></a>
+    <a href="#about"><img src="assets/images/soup.png" alt="soup"></img></a>
     <p>The Chef</p>
     <span className="span">French-trained with over 20 years of culinary experience.</span>
 </div>
