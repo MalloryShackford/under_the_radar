@@ -33,7 +33,7 @@ export default function HomePage() {
     <div className="box">
       <h1 className="title">Under the Radar</h1>
       {/* <div className="container-two"> */}
-        <img className="logo" src="images/whitelogo.png" alt="logo"/>
+        <img className="logo" src="assets/images/whitelogo.png" alt="logo"/>
       
     </div>
     {/* <div className="box overlay">
