@@ -15,8 +15,8 @@ export default function MenuPage() {
       </nav>
 
       <div id="sample">
-        <img src="src/assets/images/menu.png" alt="menu" width="300px" height="500px" />
-        <img src="src/assets/images/menu2.png" alt="menu" width="300px" height="500px" />
+        <img src="https://ibb.co/QpnY6DH" alt="menu" width="300px" height="500px" />
+        <img src="https://ibb.co/JdPRtWg" alt="menu" width="300px" height="500px" />
       </div>
 
       {/* Footer */}
