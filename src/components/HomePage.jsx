@@ -59,10 +59,10 @@ export default function HomePage() {
     <span className="span">French-trained with over 20 years of culinary experience.</span></a>
 </div>
 <div className="column">
-    <Link to="/gallery"></Link>
+    <Link to="/gallery">
 {/* 	    <img src="https://ibb.co/tzKj2v4" alt="noodles"> */}
     <p>The Food</p>
-    <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span></a>
+    <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span></Link>
 </div>
 <div className="column">
     <a href="#contact">
