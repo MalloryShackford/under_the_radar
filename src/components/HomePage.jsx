@@ -20,7 +20,7 @@ export default function HomePage() {
             <li><Link to="/">Home</Link></li>
             <li><a href="#about">About</a></li>
             <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/menu">Sample Menu</Link></li>
+{/*             <li><Link to="/menu">Sample Menu</Link></li> */}
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -33,7 +33,7 @@ export default function HomePage() {
     <div className="box">
       <h1 className="title">Under the Radar</h1>
       {/* <div className="container-two"> */}
-        <img className="logo" src="https://i.ibb.co/Q6GfHqx/whitelogo.png" alt="logo"></img>" alt="logo"></img>
+{/*         <img className="logo" src="https://i.ibb.co/Q6GfHqx/whitelogo.png" alt="logo"></img>" alt="logo"></img> */}
       
     </div>
     {/* <div className="box overlay">
@@ -53,19 +53,22 @@ export default function HomePage() {
 {/* Main */}
 <div className="row">
 <div className="column">
-    <a href="#about"><img src="https://ibb.co/RjGDGnx" alt="soup"></img></a>
+    <a href="#about">
+{/* 	    <img src="https://ibb.co/RjGDGnx" alt="soup"></img> */}
     <p>The Chef</p>
-    <span className="span">French-trained with over 20 years of culinary experience.</span>
+    <span className="span">French-trained with over 20 years of culinary experience.</span></a>
 </div>
 <div className="column">
-    <a href="gallery.html"><img src="https://ibb.co/tzKj2v4" alt="noodles"></img></a>
+    <a href="gallery.html">
+{/* 	    <img src="https://ibb.co/tzKj2v4" alt="noodles"> */}
     <p>The Food</p>
-    <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span>
+    <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span></a>
 </div>
 <div className="column">
-    <a href="#contact"><img src="https://ibb.co/QMpsfZt" alt="shrimp"></img></a>
+    <a href="#contact">
+{/* 	    <img src="https://ibb.co/QMpsfZt" alt="shrimp"></img> */}
     <p>The Services</p>
-    <span className="span">Cooking is a craft -- let me bring my art to you.</span>
+    <span className="span">Cooking is a craft -- let me bring my art to you.</span></a>
 </div>
 </div>
 
