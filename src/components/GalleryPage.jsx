@@ -17,7 +17,7 @@ export default function GalleryPage() {
         <div className="navbar-links">
           <ul>
             <li><Link to="/">Home</Link></li>
-{/*             <li><Link to="/menu">Sample Menu</Link></li> */}
+            <li><Link to="/menu">Sample Menu</Link></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>

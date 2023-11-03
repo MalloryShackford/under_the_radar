@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import menuImg from '../assets/images/menu.png'
+import menu2Img from '../assets/images/menu2.png'
 
 export default function MenuPage() {
   return (
@@ -15,8 +17,8 @@ export default function MenuPage() {
       </nav>
 
       <div id="sample">
-        <img src="https://ibb.co/QpnY6DH" alt="menu" width="300px" height="500px" />
-        <img src="https://ibb.co/JdPRtWg" alt="menu" width="300px" height="500px" />
+        <img src={menuImg} alt="menu" width="300px" height="500px" />
+        <img src={menu2Img} alt="menu" width="300px" height="500px" />
       </div>
 
       {/* Footer */}

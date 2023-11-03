@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
+import shrimpImg from '../assets/images/shrimp.png'
+import noodsImg from '../assets/images/noods.png'
+import soupImg from '../assets/images/soup.png'
 
 export default function HomePage() {
     const [isNavVisible, setIsNavVisible] = useState(false);
@@ -20,7 +23,7 @@ export default function HomePage() {
             <li><Link to="/">Home</Link></li>
             <li><a href="#about">About</a></li>
             <li><Link to="/gallery">Gallery</Link></li>
-{/*             <li><Link to="/menu">Sample Menu</Link></li> */}
+            <li><Link to="/menu">Sample Menu</Link></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -54,19 +57,19 @@ export default function HomePage() {
 <div className="row">
 <div className="column">
     <a href="#about">
-{/* 	    <img src="https://ibb.co/RjGDGnx" alt="soup"></img> */}
+	    <img src={soupImg} alt="soup"></img>
     <p><strong>The Chef</strong></p>
     <span className="span">French-trained with over 20 years of culinary experience.</span></a>
 </div>
 <div className="column">
     <Link to="/gallery">
-{/* 	    <img src="https://ibb.co/tzKj2v4" alt="noodles"> */}
+	    <img src={noodsImg} alt="noodles"/>
     <p><strong>The Food</strong></p>
     <span className="span">Inspired, seasonal, and bold. Our food has the passion of a life well traveled.</span></Link>
 </div>
 <div className="column">
     <a href="#contact">
-{/* 	    <img src="https://ibb.co/QMpsfZt" alt="shrimp"></img> */}
+	    <img src={shrimpImg} alt="shrimp"></img>
     <p><strong>The Services</strong></p>
     <span className="span">Cooking is a craft -- let me bring my art to you.</span></a>
 </div>
